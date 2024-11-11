@@ -2,7 +2,7 @@
 // Autor: Jhair Anderson Cortez Peña
 // Fecha creación: 10/11/2024
 // Número de ejercicio: 9
-// Problema planteado Realizar un algoritmo recursivo para comparar si dos vectores son iguales
+// Problema planteado: Realizar un algoritmo recursivo para comparar si dos vectores son iguales
 #include <iostream>
 #include <vector>
 using namespace std;
