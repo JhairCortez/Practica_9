@@ -1,0 +1,23 @@
+// Materia: Programación I, Paralelo 1
+// Autor: Jhair Anderson Cortez Peña
+// Fecha creación: 10/11/2024
+// Número de ejercicio: 11
+// Problema planteado: Realizar un algoritmo recursivo para el siguiente problema: un granjero ha
+comprado una pareja de conejos para criarlos y luego venderlos.
+#include <iostream>
+using namespace std;
+
+int conejos(int n) 
+{
+    if (n == 0 || n == 1) 
+    {
+        return 1;
+    }
+    return conejos(n - 1) + conejos(n - 2);
+}
+int main() 
+{
+    int meses = 12;
+    cout << "El número de parejas de conejos al cabo de " << meses << " meses es: " << conejos(meses) << endl;
+    return 0;
+}
